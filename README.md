@@ -1,5 +1,5 @@
 # Codinf
-Codinf is an app which allows the user to login into their GitHub account and displays all the information of the user's git history.
+Codinf is an app which allows the user to login into their GitHub account and display all the information of the user's git history.
 
 ### Description:
 When a user logins a dashboard appears which can display information about the User Info, Repositories and Issue of a Project. 
