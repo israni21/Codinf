@@ -4,4 +4,4 @@ When a user logins a dashboard appears which can display information about the U
 It has a very user-friendly interface which allows the user to easily navigate through the application in a very efficient manner.
 
 
-![codinfLogo](https://user-images.githubusercontent.com/89697896/169597087-34a155df-a263-4172-899d-ad08d24833d9.png)
+![codinf](https://user-images.githubusercontent.com/89697896/169597787-f156b8ce-9992-4eae-85a5-c0ef48be9f91.png)
