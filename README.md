@@ -7,7 +7,7 @@ It has a very user-friendly interface which allows the user to easily navigate t
 Retrofit Library has been used to consume Git Api to get an overview of the GitHub user.
 A clean and user-friendly UI is created using Figma.
 
-### Logo
+### Codinf Logo:
 ![codinfLogo](https://user-images.githubusercontent.com/89697896/169598203-48b5aec5-6b31-4ae2-abeb-047eefec225b.png)
 
 
