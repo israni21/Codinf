@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/design1"
+    tools:context=".UserActivity">
+
+    <include
+        layout="@layout/main_toolbar"/>
+
+
+    <TextView
+        android:layout_width="265dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="80dp"
+        android:fontFamily="@font/bellota_text_bold"
+        android:gravity="center_horizontal"
+        android:text="USER INFO"
+        android:textColor="#BD4B4B"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <View
+        android:id="@+id/rectangle_3"
+        android:layout_width="wrap_content"
+        android:layout_height="500dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="68dp"
+        android:background="@drawable/design2" />
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:id="@+id/avatar"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="185dp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        app:civ_border_width="0dp"/>
+
+
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="350dp"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/bellota_text_bold"
+        android:letterSpacing="0.05"
+        android:textSize="15sp"
+        android:textColor="#EEEEEE"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="380dp"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/bellota_text_bold"
+        android:letterSpacing="0.05"
+        android:textSize="15sp"
+        android:textColor="#EEEEEE"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/followers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="410dp"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/bellota_text_bold"
+        android:letterSpacing="0.05"
+        android:textSize="15sp"
+        android:textColor="#EEEEEE"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/following"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="440dp"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/bellota_text_bold"
+        android:letterSpacing="0.05"
+        android:textSize="15sp"
+        android:textColor="#EEEEEE"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/created_at"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="470dp"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/bellota_text_bold"
+        android:letterSpacing="0.05"
+        android:textSize="15sp"
+        android:textColor="#EEEEEE"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/updated_at"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="500dp"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/bellota_text_bold"
+        android:letterSpacing="0.05"
+        android:textSize="15sp"
+        android:textColor="#EEEEEE"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/btn_rep"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="560dp"
+        android:background="@drawable/btn_design"
+        android:fontFamily="@font/bellota_text_bold"
+        android:foreground="?attr/selectableItemBackgroundBorderless"
+        android:text="Repository"
+        android:textStyle="bold"
+        android:textColor="#EEEEEE"
+        android:textSize="18dp" />
+
+</RelativeLayout>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/design1"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="265dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/carrois_gothic_sc"
+        android:gravity="left"
+        android:text="WELCOME"
+        android:textColor="#BD4B4B"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="105dp"
+        android:gravity="left"
+        android:text="log in to continue"
+        android:fontFamily="@font/carrois_gothic_sc"
+        android:textColor="#4D4C7D"
+        android:textSize="35sp"
+        android:textStyle="bold"/>
+
+
+    <View
+        android:id="@+id/rectangle_3"
+        android:layout_width="wrap_content"
+        android:layout_height="450dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="68dp"
+        android:background="@drawable/design2" />
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/ellipse_1"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="210dp"
+        android:background="@drawable/design4"
+        />
+
+
+    <View
+        android:id="@+id/github"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="162dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="222dp"
+        android:background="@drawable/git1"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <EditText
+            android:id="@+id/enter_username"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="330dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/design3"
+            android:gravity="center"
+            android:hint="Username" />
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="125dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/enter_username"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/btn_design"
+            android:fontFamily="@font/abeezee"
+            android:foreground="?attr/selectableItemBackgroundBorderless"
+            android:text="Login"
+            android:textColor="#EEEEEE"
+            android:textSize="20dp" />
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="265dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="520dp"
+        android:gravity="left"
+        android:text="Don't have an account?"
+        android:fontFamily="@font/carrois_gothic_sc"
+        android:textColor="@color/white"
+        android:textSize="10sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="265dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="520dp"
+        android:gravity="left"
+        android:text="SIGN UP"
+        android:fontFamily="@font/carrois_gothic_sc"
+        android:textColor="#BD4B4B"
+        android:textSize="10sp"
+        android:textStyle="bold"/>
+
+</RelativeLayout>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/design1"
+    tools:context=".Issues">
+
+
+    <include
+        layout="@layout/main_toolbar"/>
+
+    <TextView
+        android:layout_width="450dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="90dp"
+        android:gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:text="ISSUES OF REPOSITORY"
+        android:fontFamily="@font/bellota_text_bold"
+        android:textColor="#BD4B4B"
+        android:textSize="37sp"
+        android:textStyle="bold"/>
+
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="420dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="68dp"
+        android:background="@drawable/design2" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="170dp"
+            android:layout_marginTop="240dp"
+            android:gravity="center"
+            android:fontFamily="@font/carrois_gothic_sc"
+            android:background="@drawable/design5"
+            android:text="user:"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/userIssue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="170dp"
+            android:layout_marginTop="280dp"
+            android:fontFamily="@font/bellota_text_bold"
+            android:gravity="center_horizontal"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/repositoryName"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="370dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/design3"
+            android:gravity="center"
+            android:hint="Name of Project" />
+
+        <EditText
+            android:id="@+id/issueNum"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="430dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/design3"
+            android:gravity="center"
+            android:hint="Issue Number" />
+
+        <Button
+            android:id="@+id/btn_issue"
+            android:layout_width="110dp"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="520dp"
+            android:background="@drawable/btn_design"
+            android:foreground="?attr/selectableItemBackgroundBorderless"
+            android:textColor="#EEEEEE"
+            android:textSize="16dp"
+            android:fontFamily="@font/bellota_text_bold"
+            android:textStyle="bold"
+            android:text="Get Issue" />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

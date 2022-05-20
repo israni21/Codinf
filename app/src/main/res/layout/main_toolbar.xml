@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:id="@+id/toolbar1"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:background="#4DE9D5DA"
+    android:padding="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+
+    <View
+        android:id="@+id/back_button"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/back_icon"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?attr/selectableItemBackgroundBorderless"
+        android:onClick="ClickBack" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="3dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/codinf2"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="bottom|end"
+        android:layout_marginRight="5dp"
+        android:backgroundTint="#4D4C7D"
+        android:scaleType="fitCenter"
+        app:fabSize="mini"
+        app:maxImageSize="25dp"
+        android:src="@drawable/git1"
+        android:onClick="ClickLogOut"/>
+
+</RelativeLayout>

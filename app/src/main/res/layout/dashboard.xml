@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <View
+        android:id="@+id/rectangle_3"
+        android:layout_width="wrap_content"
+        android:layout_height="450dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="240dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/design2" />
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="270dp"
+        android:layout_marginLeft="65dp"
+        android:gravity="center"
+        android:text="dashboard"
+        android:background="@drawable/design3"
+        android:fontFamily="@font/carrois_gothic_sc"
+        android:textColor="#363062"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginTop="320dp">
+
+
+        <RelativeLayout
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="60dp"
+            android:background="@drawable/design4"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="info"
+            android:foreground="?attr/selectableItemBackgroundBorderless"
+            android:fontFamily="@font/carrois_gothic_sc"
+            android:padding="12dp"
+            android:layout_marginRight="200dp"
+            android:textSize="25sp"
+            android:textColor="#EEEEEE"/>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="390dp"
+        android:gravity="center_vertical">
+
+        <RelativeLayout
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="60dp"
+            android:background="@drawable/design4"
+            />
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="repositories"
+            android:foreground="?attr/selectableItemBackgroundBorderless"
+            android:fontFamily="@font/carrois_gothic_sc"
+            android:padding="12dp"
+            android:layout_marginRight="110dp"
+            android:textSize="25sp"
+            android:textColor="#EEEEEE" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="460dp"
+        android:gravity="center_vertical">
+
+        <RelativeLayout
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="60dp"
+            android:background="@drawable/design4"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="issue"
+            android:foreground="?attr/selectableItemBackgroundBorderless"
+            android:fontFamily="@font/carrois_gothic_sc"
+            android:padding="12dp"
+            android:layout_marginRight="200dp"
+            android:textSize="25sp"
+            android:textColor="#EEEEEE"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="550dp"
+        android:layout_marginLeft="65dp"
+        android:gravity="center"
+        android:text="my account"
+        android:background="@drawable/design3"
+        android:fontFamily="@font/carrois_gothic_sc"
+        android:textColor="#363062"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="600dp"
+        android:layout_marginLeft="65dp"
+        android:text="switch to other account"
+        android:onClick="ClickSwitch"
+        android:foreground="?attr/selectableItemBackgroundBorderless"
+        android:textColor="#EEEEEE"
+        android:fontFamily="@font/carrois_gothic_sc"
+        android:textStyle="bold"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="630dp"
+        android:fontFamily="@font/carrois_gothic_sc"
+        android:foreground="?attr/selectableItemBackgroundBorderless"
+        android:onClick="ClickLogOut"
+        android:text="log out"
+        android:textColor="#BD4B4B"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
+
+
+
