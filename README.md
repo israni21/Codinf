@@ -12,8 +12,6 @@ It has a very user-friendly interface which allows the user to easily navigate t
 ### Codinf Logo:
 ![codinfLogo](https://user-images.githubusercontent.com/89697896/169598203-48b5aec5-6b31-4ae2-abeb-047eefec225b.png)
 
-
-
-
-https://user-images.githubusercontent.com/89697896/169627829-fa8f0a2c-7e32-4c33-a532-1b933122c427.mp4
+### Codinf Functioning:
+https://user-images.githubusercontent.com/89697896/169628638-c0c34eae-91ad-4bc2-a5bc-7052f3a8a6fe.mp4
 
